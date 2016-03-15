@@ -14,6 +14,11 @@ static void MX_DMA_Init(void);
 static void MX_CAN1_Init(void);
 static void MX_USART3_UART_Init(void);
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/develop
 char txBuffer[]="helloKhiem\r\n";
 
 int main(void)
