@@ -1,0 +1,40 @@
+2016-03-16 00:03:27,092 | topics | INFO | started session
+2016-03-16 00:03:27,093 | cli | INFO | Module path : F:\embedded_ws\importTelemetryLib\env1\lib\site-packages\pytelemetrycli
+2016-03-16 00:03:27,093 | cli | WARNING | Module version : not found.
+2016-03-16 00:04:02,297 | cli | WARNING | Already disconnected. Continuing happily. E : 'NoneType' object has no attribute 'close'
+2016-03-16 00:04:02,307 | cli | INFO | Connected to COM25 at 115200 (bauds).
+
+2016-03-16 00:04:02,308 | topics | INFO | Cleared all topics and received data
+2016-03-16 00:04:02,308 | cli | INFO | Cleared all topics for new session.
+2016-03-16 00:04:02,308 | cli | INFO | Cleared all stats for new session.
+2016-03-16 00:04:02,663 | topics | INFO | new:topic:linear hello
+2016-03-16 00:04:02,663 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:03,660 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:04,662 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:05,664 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:06,665 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:07,667 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:08,669 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:09,665 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:10,667 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:11,669 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:12,672 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:13,674 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:14,675 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:15,672 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:16,674 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:17,676 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:18,678 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:19,680 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:20,681 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:21,677 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:22,679 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:22,763 | topics | INFO | start transfer | hello
+2016-03-16 00:04:22,764 | cli | INFO | Plotting 'hello' in mode [linear].
+
+2016-03-16 00:04:23,681 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:24,683 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:25,685 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:26,687 | topics | DEBUG | new sample | hello 100
+2016-03-16 00:04:27,336 | topics | INFO | stop transfer | hello
+2016-03-16 00:04:27,683 | topics | DEBUG | new sample | hello 100
