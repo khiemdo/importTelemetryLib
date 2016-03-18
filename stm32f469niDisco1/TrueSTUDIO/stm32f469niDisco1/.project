@@ -87,6 +87,16 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>myLib</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>projectLib</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>Application/TrueSTUDIO</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -170,6 +180,66 @@
 			<name>Telemetry/version</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.gitattributes</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.gitattributes</locationURI>
+		</link>
+		<link>
+			<name>myLib/.gitignore</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.gitignore</locationURI>
+		</link>
+		<link>
+			<name>myLib/cAssert.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cAssert.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/cAssert.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cAssert.h</locationURI>
+		</link>
+		<link>
+			<name>myLib/cRingBuffer.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cRingBuffer.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/cRingBuffer.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cRingBuffer.h</locationURI>
+		</link>
+		<link>
+			<name>myLib/myLib.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/myLib.h</locationURI>
+		</link>
+		<link>
+			<name>myLib/stm32f4</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>projectLib/blank.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/projectLib/blank.c</locationURI>
+		</link>
+		<link>
+			<name>projectLib/blank.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/projectLib/blank.h</locationURI>
+		</link>
+		<link>
+			<name>projectLib/main.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/projectLib/main.h</locationURI>
 		</link>
 		<link>
 			<name>Application/TrueSTUDIO/startup_stm32f469xx.s</name>
@@ -397,6 +467,96 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/Telemetry/version/telemetry_version.h</locationURI>
 		</link>
 		<link>
+			<name>myLib/.git/HEAD</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/HEAD</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/config</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/config</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/description</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/description</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/hooks</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/index</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/index</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/info</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/logs</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/objects</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/packed-refs</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/packed-refs</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/refs</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/stm32f4/TcDebugUart.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/stm32f4/TcDebugUart.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/stm32f4/TcDebugUart.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/stm32f4/TcDebugUart.h</locationURI>
+		</link>
+		<link>
+			<name>myLib/stm32f4/cDebugUart.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/stm32f4/cDebugUart.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/stm32f4/cDebugUart.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/stm32f4/cDebugUart.h</locationURI>
+		</link>
+		<link>
+			<name>myLib/stm32f4/cUartPort.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/stm32f4/cUartPort.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/stm32f4/cUartPort.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/stm32f4/cUartPort.h</locationURI>
+		</link>
+		<link>
+			<name>myLib/stm32f4/utility.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/stm32f4/utility.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/stm32f4/utility.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/stm32f4/utility.h</locationURI>
+		</link>
+		<link>
 			<name>Telemetry/.git/hooks/applypatch-msg.sample</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/Telemetry/.git/hooks/applypatch-msg.sample</locationURI>
@@ -562,6 +722,91 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>myLib/.git/hooks/applypatch-msg.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/hooks/applypatch-msg.sample</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/hooks/commit-msg.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/hooks/commit-msg.sample</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/hooks/post-update.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/hooks/post-update.sample</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/hooks/pre-applypatch.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/hooks/pre-applypatch.sample</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/hooks/pre-commit.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/hooks/pre-commit.sample</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/hooks/pre-push.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/hooks/pre-push.sample</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/hooks/pre-rebase.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/hooks/pre-rebase.sample</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/hooks/prepare-commit-msg.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/hooks/prepare-commit-msg.sample</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/hooks/update.sample</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/hooks/update.sample</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/info/exclude</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/info/exclude</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/logs/HEAD</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/logs/HEAD</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/logs/refs</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/objects/info</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/objects/pack</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/refs/heads</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/refs/remotes</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/refs/tags</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>Telemetry/.git/logs/refs/heads</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -652,6 +897,36 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/Telemetry/src/telemetry/headers/telemetry_utils.h</locationURI>
 		</link>
 		<link>
+			<name>myLib/.git/logs/refs/heads</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/logs/refs/remotes</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/objects/pack/pack-2ce7360de01717b1d8ef6ab5107b24b3bf037c53.idx</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/objects/pack/pack-2ce7360de01717b1d8ef6ab5107b24b3bf037c53.idx</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/objects/pack/pack-2ce7360de01717b1d8ef6ab5107b24b3bf037c53.pack</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/objects/pack/pack-2ce7360de01717b1d8ef6ab5107b24b3bf037c53.pack</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/refs/heads/master</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/refs/heads/master</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/refs/remotes/origin</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>Telemetry/.git/logs/refs/heads/master</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/Telemetry/.git/logs/refs/heads/master</locationURI>
@@ -667,9 +942,29 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/Telemetry/.git/refs/remotes/origin/HEAD</locationURI>
 		</link>
 		<link>
+			<name>myLib/.git/logs/refs/heads/master</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/logs/refs/heads/master</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/logs/refs/remotes/origin</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/refs/remotes/origin/HEAD</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/refs/remotes/origin/HEAD</locationURI>
+		</link>
+		<link>
 			<name>Telemetry/.git/logs/refs/remotes/origin/HEAD</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/Telemetry/.git/logs/refs/remotes/origin/HEAD</locationURI>
+		</link>
+		<link>
+			<name>myLib/.git/logs/refs/remotes/origin/HEAD</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.git/logs/refs/remotes/origin/HEAD</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
