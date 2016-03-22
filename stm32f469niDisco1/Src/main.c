@@ -2,11 +2,10 @@
 #include "cDebugUart.h"
 
 #include "TcDebugUart.h"
-
 #include "string.h"
-
 #include "telemetry.h"
 #include "driver.h"
+#include "TestcConfigHandle.h"
 
 void SystemClock_Config(void);
 
@@ -14,23 +13,12 @@ int main(void) {
 	HAL_Init();
 	SystemClock_Config();
 	UartDebugConfig0();
-	TM_transport thisTMTransport;
-	thisTMTransport.read = read;
-	thisTMTransport.readable = readable;
-	thisTMTransport.write = write;
-	thisTMTransport.writeable = writeable;
-	init_telemetry(&thisTMTransport);
-
-	uint32_t lastTime = 0;
-
+//	TestcConfigHandleConfig();
+	TesConfigWriteAndReadDIffTypes();
+//	TestConfigAPI();
 	while (1) {
 //		TPrinf();
-		uint32_t currentTime = HAL_GetTick();
-		int32_t deltaTime = currentTime - lastTime;
-		if (deltaTime > 1000) {
-			publish_i32("hello", 100);
-			lastTime = currentTime;
-		}
+
 		UARTDebug_TBuffControllerLoop(GetUartDebugPtr());
 	}
 }

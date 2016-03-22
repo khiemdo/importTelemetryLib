@@ -3,6 +3,13 @@
 
 #define DEBUGUART_ID	3
 
+#define NB_OF_CONFIG_VAR	300
+#define NB_OF_VAR NB_OF_CONFIG_VAR
+#define EEPROM_START_ADDRESS ((uint32_t)0x08010000)  /* EEPROM emulation start address */
+uint16_t VirtAddVarTab[NB_OF_VAR];
+
+
+
 #define USE_FULL_ASSERT
 #define USE_MY_ASSERT
 #define DEBUGON

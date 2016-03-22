@@ -197,6 +197,16 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/.gitignore</locationURI>
 		</link>
 		<link>
+			<name>myLib/TestcConfigHandle.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/TestcConfigHandle.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/TestcConfigHandle.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/TestcConfigHandle.h</locationURI>
+		</link>
+		<link>
 			<name>myLib/cAssert.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cAssert.c</locationURI>
@@ -207,6 +217,16 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cAssert.h</locationURI>
 		</link>
 		<link>
+			<name>myLib/cConfigHandle.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cConfigHandle.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/cConfigHandle.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cConfigHandle.h</locationURI>
+		</link>
+		<link>
 			<name>myLib/cRingBuffer.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cRingBuffer.c</locationURI>
@@ -215,6 +235,31 @@
 			<name>myLib/cRingBuffer.h</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/cRingBuffer.h</locationURI>
+		</link>
+		<link>
+			<name>myLib/configuration.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/configuration.h</locationURI>
+		</link>
+		<link>
+			<name>myLib/crc.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/crc.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/crc.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/crc.h</locationURI>
+		</link>
+		<link>
+			<name>myLib/eeprom.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/eeprom.c</locationURI>
+		</link>
+		<link>
+			<name>myLib/eeprom.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/myLib/eeprom.h</locationURI>
 		</link>
 		<link>
 			<name>myLib/myLib.h</name>
