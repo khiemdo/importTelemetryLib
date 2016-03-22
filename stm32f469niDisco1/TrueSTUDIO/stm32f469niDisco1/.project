@@ -272,6 +272,16 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>projectLib/TestConfigSerialHandle.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/projectLib/TestConfigSerialHandle.c</locationURI>
+		</link>
+		<link>
+			<name>projectLib/TestConfigSerialHandle.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/projectLib/TestConfigSerialHandle.h</locationURI>
+		</link>
+		<link>
 			<name>projectLib/blank.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Inc/projectLib/blank.c</locationURI>
@@ -880,6 +890,11 @@
 			<name>Telemetry/.git/refs/remotes/origin</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Telemetry/drivers/c/base/driver.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Inc/Telemetry/drivers/c/base/driver.c</locationURI>
 		</link>
 		<link>
 			<name>Telemetry/drivers/c/base/driver.h</name>

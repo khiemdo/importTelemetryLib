@@ -6,6 +6,7 @@
 #include "telemetry.h"
 #include "driver.h"
 #include "TestcConfigHandle.h"
+#include "TestConfigSerialHandle.h"
 
 void SystemClock_Config(void);
 
@@ -14,8 +15,12 @@ int main(void) {
 	SystemClock_Config();
 	UartDebugConfig0();
 //	TestcConfigHandleConfig();
-	TesConfigWriteAndReadDIffTypes();
+//	TesConfigWriteAndReadDIffTypes();
 //	TestConfigAPI();
+
+	TestcConfigSerialHandleConfig();
+//	TestSendSettingsInfoOnSerialTelemetry();
+	TestSendSettingsInfoOnSerialDebug();
 	while (1) {
 //		TPrinf();
 
