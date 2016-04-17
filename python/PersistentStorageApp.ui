@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PersistentStorageWidget</class>
+ <widget class="QWidget" name="PersistentStorageWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>859</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>872</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="MainVerticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Persistent Storage Treeview</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTreeView" name="PersistentStorageTreeView"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="HorizontalBtnsLayout">
+      <property name="leftMargin">
+       <number>251</number>
+      </property>
+      <property name="rightMargin">
+       <number>43</number>
+      </property>
+      <property name="bottomMargin">
+       <number>29</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="LoadPersistentStorageFromRemoteBtn">
+        <property name="text">
+         <string>Load from Controller</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="LoadPersistentStorageFromLocalBtn">
+        <property name="text">
+         <string>Load from Disk</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SavePersistentStorageToRemoteBtn">
+        <property name="text">
+         <string>Save to Controller</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SavePersistentStorageToLocalBtn">
+        <property name="text">
+         <string>Save to Disk</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

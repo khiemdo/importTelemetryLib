@@ -1,0 +1,31 @@
+<PersistentConfigStorage>
+	<item name="FactorySettings">
+		<item name="psvn" type="uint16_t">2</item>
+		<item name="psvnTilda" type="uint16_t"></item>
+		<item name="softwareVersion" type="uint16_t">6</item>
+		<item name="deviceID" type="uint16_t">4</item>
+		<item name="paraU16" type="uint16_t">0x0222</item>
+		<item name="paraU32" type="uint32_t">0x01111111</item>
+		<item name="paraI16" type="int16_t">-1024</item>
+		<item name="paraI32" type="int32_t">-131072</item>
+		<item name="paraF" type="float">3.14</item>
+		<item name="string1" type="char" length="2">a</item>
+		<item name="string2" type="char" length="3">cd</item>
+		<item name="string3" type="char" length="4">ban</item>
+		<item name="char1" type="char" length="1">k</item>
+	</item>
+	<item name="UserSettings">	
+		<item name="psvn" type="uint16_t" >3</item>
+		<item name="psvnTilda" type="uint16_t"></item>
+		<item name="softwareVersion" type="uint16_t">6</item>
+		<item name="deviceID" type="uint16_t">1</item>
+		<item name="paraU16" type="uint16_t" >0x7222</item>
+		<item name="paraU32" type="uint16_t">0x71111111</item>
+		<item name="paraI16" type="uint16_t">-1024</item>
+		<item name="paraI32" type="uint16_t">-131072</item>
+		<item name="paraF" type="uint16_t" >3.14</item>
+		<item name="string1" type="char" length="6">khiem</item>
+		<item name="string3" type="char" length="6">hello</item>
+		<item name="char1" type="char" length="1">h</item>
+	</item>
+</PersistentConfigStorage>

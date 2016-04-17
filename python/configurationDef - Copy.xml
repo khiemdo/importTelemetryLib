@@ -1,0 +1,31 @@
+<PersistentConfigStorage>
+  <FactorySettings>
+    <psvn type="uint16_t">2</psvn>
+    <psvnTilda type="uint16_t"></psvnTilda>
+    <softwareVersion type="uint16_t">6</softwareVersion>
+    <deviceID type="uint16_t">4</deviceID>
+    <paraU16 type="uint16_t">0x0222</paraU16>
+    <paraU32 type="uint32_t">0x01111111</paraU32>
+    <paraI16 type="int16_t">-1024</paraI16>
+    <paraI32 type="int32_t">-131072</paraI32>
+    <paraF type="float">3.14</paraF>
+    <string1 type="char" length="2">a</string1>
+    <string2 type="char" length="3">cd</string2>
+    <string3 type="char" length="4">ban</string3>
+    <char1 type="char" length="1">k</char1>
+  </FactorySettings>
+  <UserSettings>
+    <psvn type="uint16_t">3</psvn>
+    <psvnTilda type="uint16_t"></psvnTilda>
+    <softwareVersion type="uint16_t">6</softwareVersion>
+    <deviceID type="uint16_t">1</deviceID>
+    <paraU16 type="uint16_t">0x7222</paraU16>
+    <paraU32 type="uint32_t">0x71111111</paraU32>
+    <paraI16 type="int16_t">-1024</paraI16>
+    <paraI32 type="int32_t">-131072</paraI32>
+    <paraF type="float">3.14</paraF>
+    <string1 type="char" length="6">khiem</string1>
+    <string3 type="char" length="8">hello</string3>
+    <char1 type="char" length="1">h</char1>
+  </UserSettings>
+</PersistentConfigStorage>
