@@ -9,9 +9,9 @@
 		<item name="paraI16" type="int16_t">-1024</item>
 		<item name="paraI32" type="int32_t">-131072</item>
 		<item name="paraF" type="float">3.14</item>
-		<item name="string1" type="char" length="2">a</item>
-		<item name="string2" type="char" length="3">cd</item>
-		<item name="string3" type="char" length="4">ban</item>
+		<item name="string1" type="char[]" length="2">a</item>
+		<item name="string2" type="char[]" length="3">cd</item>
+		<item name="string3" type="char[]" length="4">ban</item>
 		<item name="char1" type="char" length="1">k</item>
 	</item>
 	<item name="UserSettings">	
@@ -24,8 +24,8 @@
 		<item name="paraI16" type="uint16_t">-1024</item>
 		<item name="paraI32" type="uint16_t">-131072</item>
 		<item name="paraF" type="uint16_t" >3.14</item>
-		<item name="string1" type="char" length="6">khiem</item>
-		<item name="string3" type="char" length="6">hello</item>
+		<item name="string1" type="char[]" length="6">khiem</item>
+		<item name="string3" type="char[]" length="6">hello</item>
 		<item name="char1" type="char" length="1">h</item>
 	</item>
 </PersistentConfigStorage>

@@ -129,6 +129,30 @@ class PersistentStorageModel(QtCore.QAbstractItemModel):
         self.dataChanged.emit(index, index)
         return True         
     
+    def GetFactorySettingItem(self):
+        factorySettingItem = DomItem(self.domDocument.getroot()[0],0,self.domDocument.getroot())
+        return factorySettingItem
+    def GetUserSettingsItem(self):
+        userSettingItem = DomItem(self.domDocument.getroot()[1],1,self.domDocument.getroot()) 
+        return userSettingItem
+    def GetFactorySettingIndex(self):
+        factorySettingIndex = self.createIndex(0,0,self.GetFactorySettingItem())
+        return factorySettingIndex
+    def GetUserSettingIndex(self):
+        userSettingIndex = self.createIndex(1,0,self.GetUserSettingsItem())
+        return userSettingIndex
+    def GetNodeByItemName(self,nameString,parent = QtCore.QModelIndex()):
+        if(not parent.isValid()):
+            parentNode = self.domDocument.getroot()
+        else: 
+            parentNode = parent.internalPointer().node()
+        if(parentNode is None):
+            parentNode = self.domDocument.getroot()
+        for element in parentNode.iter(tag=etree.Element):
+            if(element.tag == nameString):
+                return element
+        return None
+
         
 
 

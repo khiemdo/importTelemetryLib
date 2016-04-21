@@ -2,6 +2,7 @@ import logging
 from PyQt4 import QtCore, QtGui, QtXml
 from PersistentStorageViewer import PersistentStorageViewer
 from PersistentStorageModel import PersistentStorageModel
+from SerialController import SerialController
 import sys
 
 
@@ -11,7 +12,9 @@ class PersistentStorageApp():
         self.app = QtGui.QApplication(sys.argv)
         self.viewer = PersistentStorageViewer()
         self.model = None
+        self.serialController = SerialController()
         self.xmlDefaultPath = './python/configurationDef.xml'
+        
     def LoadConfigsFromDisk(self, xmlPath):
         import lxml.etree as ET
         psDom = None
@@ -33,7 +36,8 @@ class PersistentStorageApp():
         self.viewer.PersistentStorageTreeView.setModel(self.model)
         self.viewer.show()
     def SaveConfigsToControllerHandler(self):
-        pass
+        self.serialController.SetModel(self.model)
+        self.serialController.ComposeFormatStringForCStructure()
     def SaveConfigsToDiskHandler(self):
         #open directoryBox or loadDefault
         fileName = QtGui.QFileDialog.getSaveFileName(self.viewer, "Save File","./python","XML files (*.xml);;");
