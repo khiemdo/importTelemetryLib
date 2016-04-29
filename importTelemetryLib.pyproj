@@ -2059,6 +2059,9 @@
     <Compile Include="python\simpletreemodel.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="python\testSerialController.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="python\treeviewExample\base_classes.py" />
     <Compile Include="python\treeviewExample\icons_rc.py" />
     <Compile Include="python\treeviewExample\tableview.py" />
