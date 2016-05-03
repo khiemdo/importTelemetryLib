@@ -31,7 +31,9 @@ class SerialController(object):
         self.transport  = SerialTransport() 
         self.tlm = Pytelemetry(self.transport)    
         self.model = None
-        #self.cStructWorker = struct.Struct(self.GetPSFormatString())
+        self.psFormatString = None
+        self.psValueList = None
+        #self.cStructWorker = struct.Struct(self.GetPSFormatString()
 
     def GetPSFormatString(self, createFlag = 0):
         if createFlag!=0 or self.psFormatString is None:
@@ -50,11 +52,7 @@ class SerialController(object):
         psFormatString,psValuesList=self.__PSFormatString_PSValue_Constructor(root)
         self.logger.info("psFormatStringRet:{0}".format(psFormatString))
         self.logger.info("psValuesList:{0}".format(psValuesList))
-    '''
-        retOption = 0--> return both formatstring and valuelist
-        retOption = 1--> return formatstring
-        retOption = 2--> return valuelist
-    '''
+        return psFormatString,psValuesList
     def __PSFormatString_PSValue_Constructor(self,node,retOption=0):
         nodeLength = len(node)
         if (nodeLength==0):
@@ -154,7 +152,7 @@ class SerialController(object):
             for child in node.iterchildren():
                 self.__AssignValuesIntoParentNode(child,data,index)
         return index
-    def AssignValueToLeafNode(self,node,value):
+    def __AssignValueToLeafNode(self,node,value):
         nodeType = node.get('type')
         nodeLength = node.get('length')
         if nodeType is None or nodeLength is None:

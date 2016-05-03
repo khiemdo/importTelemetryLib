@@ -11,9 +11,8 @@ class TestSerialController(unittest.TestCase):
         #self.serialController.Connect(3,115200)
         psDom = ET.parse('./testConfig.xml')
         self.model = PersistentStorageModel(psDom)
+        self.serialController.SetModel(self.model)
         self.logger = logging.getLogger("TestSerialController")
-
-       
 
     def testGetPSFormatString(self):
         formatStr = self.serialController.GetPSFormatString()
@@ -29,7 +28,7 @@ class TestSerialController(unittest.TestCase):
 
     def testComposeFormatStringForCStructure(self):
         formatStr, valueList = self.serialController.ComposeFormatStringForCStructure()
-        structSize = struct.calsize(formatStr)
+        structSize = struct.calcsize(formatStr)
         self.assertEqual(structSize,0)
 
         length = len(valueList)
