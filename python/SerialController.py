@@ -6,7 +6,6 @@ from logging import getLogger
 from PersistentStorageModel import DomItem, PersistentStorageModel
 import struct
 
-
 class SerialController(object):
     FORMAT_STRING_ENCODE = {
 	                         'char':'c',

@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{76a761e8-363b-4866-bdb1-59c98a7e789e}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>python\PersistentStorageApp.py</StartupFile>
+    <StartupFile>python\testSerialController.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>

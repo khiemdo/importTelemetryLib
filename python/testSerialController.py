@@ -5,11 +5,15 @@ import lxml.etree as ET
 import struct
 import logging
 
+from SerialController import *
+from PersistentStorageModel import DomItem, PersistentStorageModel
+import lxml.etree as ET
+
 class TestSerialController(unittest.TestCase):
     def setUp(self):
         self.serialController = SerialController()
         #self.serialController.Connect(3,115200)
-        psDom = ET.parse('./testConfig.xml')
+        psDom = ET.parse('./python/testConfig.xml')
         self.model = PersistentStorageModel(psDom)
         self.serialController.SetModel(self.model)
         self.logger = logging.getLogger("TestSerialController")
@@ -33,9 +37,9 @@ class TestSerialController(unittest.TestCase):
 
         length = len(valueList)
         self.assertEqual(length,0)
-	
         psvnFactorySetting = valueList[0]
         self.assertTrue(psvnFactorySetting)
+
 
 if __name__ == '__main__':
     unittest.main()

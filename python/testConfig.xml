@@ -20,9 +20,9 @@
 		<item name="softwareVersion" type="uint32_t">6</item>
 		<item name="deviceID" type="uint16_t">1</item>
 		<item name="paraU16" type="uint16_t">0x7222</item>
-		<item name="paraU32" type="uint16_t">0x71111111</item>
-		<item name="paraI16" type="uint16_t">-1024</item>
-		<item name="paraI32" type="uint16_t">-131072</item>
+		<item name="paraU32" type="uint32_t">0x71111111</item>
+		<item name="paraI16" type="int16_t">-1024</item>
+		<item name="paraI32" type="uint32_t">-131072</item>
 		<item name="paraF" type="float_t">3.14</item>
 		<item name="string1" type="char[]" length="6">khiem</item>
 		<item name="string3" type="char[]" length="6">hello</item>

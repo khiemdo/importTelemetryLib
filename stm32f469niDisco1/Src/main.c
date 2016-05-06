@@ -6,13 +6,21 @@
 #include "telemetry.h"
 #include "driver.h"
 #include "TestcConfigHandle.h"
+#include "configuration.h"
 
+typedef struct configStorage_{
+	UserSettings hello;
+
+}configStorage;
 void SystemClock_Config(void);
 
 int main(void) {
 	HAL_Init();
 	SystemClock_Config();
 	UartDebugConfig0();
+	FactorySettings fuck1;
+	int fucker = sizeof(FactorySettings);
+	fucker++;
 //	TestcConfigHandleConfig();
 	TesConfigWriteAndReadDIffTypes();
 //	TestConfigAPI();
