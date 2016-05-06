@@ -40,6 +40,5 @@ class TestSerialController(unittest.TestCase):
         psvnFactorySetting = valueList[0]
         self.assertTrue(psvnFactorySetting)
 
-
 if __name__ == '__main__':
     unittest.main()
